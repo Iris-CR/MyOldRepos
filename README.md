@@ -1,15 +1,16 @@
 # MyOldRepos
-This is a place to put my old repos... durr
+<h2>This is a place to put my old repos... durr</h2>
 <br><br><br>
 You can do the same using Git Bash, I did it using git subtrees, heres how you do it:<br>
 First you clone the repository that you will store the old ones, with:<br>
 <br>
-&emsp;git clone https://github.com/username/parent-repo.git<br>
-&emsp;cd parent-repo<br>
+&emsp;<em>git clone https://github.com/username/parent-repo.git</em><br>
+&emsp;<em>cd parent-repo</em><br>
   <br>
 Then you can add each old repo using:<br>
-&emsp;git subtree add --prefix=subdirectory-name https://github.com/username/repo-to-move.git main<br>
+<br>
+&emsp;<em>git subtree add --prefix=subdirectory-name https://github.com/username/repo-to-move.git main</em><br>
   <br>
 Finally, just push to the Changes to GitHub:<br>
 <br>
-&emsp;git push origin main
+&emsp;<em>git push origin main</em>
