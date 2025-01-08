@@ -1,0 +1,11 @@
+sort1 uses: Bubble sort
+
+How do you know?: It thrives in a sorted array but is very slow with larger random values.
+
+sort2 uses: Merge sort
+
+How do you know?: It`s the fastest overall.
+
+sort3 uses: Selection sort
+
+How do you know?: It isn't the fastest, nor the slowest; it maintains consistency in the tests.
